@@ -1,0 +1,164 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+#content{
+  background: url('./images/background1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+}
+.header{
+  background-color: #222222;
+  height: 100px;
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  font-family: 'Poppins';
+}
+.header h2{
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+.header a{
+  text-decoration: none;
+  font-size: 20px;
+}
+.buttonsDiv{
+  display: inline-flex;
+  width: 100%;
+  gap: 60px;
+}
+.tab{
+  color: #B2B2B2;
+}
+.container{
+  height: auto;
+  font-family: 'Unbounded';
+  margin: 0;
+  overflow: hidden;
+}
+.container img{
+  width: 200px;
+  height: 200px; 
+}
+.newDiv{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 100px);
+  gap: 150px;
+  animation: fadeIn 0.5s;
+
+}
+.textDiv p{
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+.textDiv{
+  text-align: center;
+}
+.textDiv h3{
+  font-family: 'Dancing Script';
+  color: #fac564;
+  font-size: 60px;
+}
+.order{
+  width: 130px;
+  height: 50px;
+  background-color: #fac564;
+  font-family: 'Poppins';
+}
+
+.menuDiv{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgba(58, 57, 57, 0.732);
+  justify-content: center;
+  margin: 1% 10%;
+  padding: 1%;
+  animation: fadeIn 0.5s;
+}
+@keyframes fadeIn{
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+.pizza{
+  display: grid;
+  color: #fac564;
+  padding: 1%;
+}
+.pizza:hover{
+  background-color: rgba(187, 187, 187, 0.26);
+}
+.pizza p{
+  font-size: 14px;
+}
+.footer{
+  /* background-color: #222222; */
+  background-color: rgba(31, 31, 31, 0.888);
+  height: 50px;
+  width: 100vw;
+  bottom: 0;
+  position: absolute;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.footer p{
+  color: white;
+  text-align: center;
+  font-family: 'Poppins';
+}
+.footer .fa-brands{
+  color: white;
+  font-size: 20px;
+}
+.address-div{
+  color: white;
+  /* font-size: 10px; */
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10% 0;
+  background-color: rgb(9, 8, 8);
+  width: 100%;
+  height: auto;
+  gap: 150px;
+  padding: 2% 0;
+  animation: fadeIn 0.5s;
+
+}
+.form{
+  display: grid;
+  gap: 10px;
+}
+.form input[type=text],
+.form input[type=email],
+.form textarea
+{
+  width: 250px;
+}
+.submit{
+  width: 130px;
+  height: 30px;
+  background-color: #fac564;
+  font-family: 'Poppins';
+}
+#message{
+  height: 100px;
+}
+.active{
+  color: #fac564;
+}
+.address-text h3{
+  color: #fac564;
+  font-size: 30px;
+}
